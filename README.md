@@ -50,9 +50,6 @@ We will start by setting up version control for your project using Git.
 ### Task:
 Add a brief explanation of what Express.js is in the `README.md` file of your repository.
 
-### Explanation:
-**Express.js** is a minimal and flexible Node.js web application framework that simplifies the development of web and mobile applications. It provides robust features for building APIs and web servers, and is known for its speed and simplicity.
-
 ---
 
 ## Exercise 3: Building a Simple Express Server
@@ -77,7 +74,7 @@ Create a basic Express server that listens on `localhost:3000` and responds with
    const port = 3000;
 
    app.get('/', (req, res) => {
-       res.send('Welcome to Data Representation & Querying');
+       res.send('Hello World');
    });
 
    app.listen(port, () => {
@@ -123,10 +120,6 @@ Add a route that accepts a name parameter in the URL and returns "Hello [name]".
 
 2. **Test:**
    Access `http://localhost:3000/hello/John` in your browser. It should display "Hello John".
-
-### Improvements:
-- **Sanitization:** You can sanitize the input to prevent security vulnerabilities like XSS.
-
 ---
 
 ## Exercise 5: Return JSON Data
