@@ -120,6 +120,9 @@ Add a route that accepts a name parameter in the URL and returns "Hello [name]".
 
 2. **Test:**
    Access `http://localhost:3000/hello/John` in your browser. It should display "Hello John".
+
+3. **Add second URL paramater for surname:**
+   Access `http://localhost:3000/hello/John/Doe` in your browser. It should display "Hello John Doe".
 ---
 
 ## Exercise 5: Return JSON Data
