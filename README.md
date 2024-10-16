@@ -163,9 +163,6 @@ Create a route `/api/movies` that returns a list of movie objects in JSON format
 2. **Test:**
    Use `curl` or your browser to access `http://localhost:3000/api/movies` to see the JSON response.
 
-### Improvements:
-- **Add CORS support** if you're going to be accessing this API from a different domain.
-
 ---
 
 ## Exercise 6: Serving Static HTML
