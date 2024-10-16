@@ -1,7 +1,7 @@
 
 
 
-# Lab 5: Node/Express Data Representation and Querying
+# Lab 5: Node/Express Data             Representation and Querying
 
 This lab will guide you through the basics of Node.js and Express.js, teaching you how to set up a web server, handle routes, and work with query parameters and JSON data. You will also learn how to integrate forms using GET and POST methods.
 
