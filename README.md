@@ -289,9 +289,7 @@ Add another form using the POST method and handle the data submission on the ser
 
 ## Conclusion: What You've Learned
 
-By completing
-
- this lab, you have gained hands-on experience with the following concepts:
+By completing this lab, you have gained hands-on experience with the following concepts:
 
 - **Working with Express.js:** You now understand how to create a basic Express server, handle routes, and use URL parameters.
 - **Handling JSON data:** You learned how to return structured JSON data through an API endpoint.
