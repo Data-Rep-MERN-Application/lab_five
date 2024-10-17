@@ -166,8 +166,8 @@ Create a route `/api/movies` that returns a list of movie objects in JSON format
 2. **Test:**
    Use `curl` or your browser to access `http://localhost:3000/api/movies` to see the JSON response.
 
-3. **Add Ststus code to the resposnse:**
-To add a ststus code to a HTTP response res.status(201).json({ movies });
+3. **Add status code to the resposnse:**
+To add a status code to a HTTP response res.status(201).json({ movies });
 ---
 
 ## Exercise 6: Serving Static HTML
