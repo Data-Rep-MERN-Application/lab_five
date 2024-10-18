@@ -91,6 +91,10 @@ Create a basic Express server that listens on `localhost:3000` and responds with
 4. **Test:**
    Open a browser and navigate to `http://localhost:3000` to see the welcome message.
 
+5. **Change welcome message:**
+   Change welcome message from 'Hello World' to 'Welcome to Data Respresentation & Querying'.
+
+
 ### Improvements:
 - **Error handling:** You can add error-handling middleware to catch any server errors:
    ```javascript
