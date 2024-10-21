@@ -173,6 +173,8 @@ Create a route `/api/movies` that returns a list of movie objects in JSON format
 
 3. **Add status code to the resposnse:**
 To add a status code to a HTTP response res.status(201).json({ movies });
+
+4. **Return JSON response:** Modify the route handler to return the movies as a JSON response, but rename the array to myMovies:
 ---
 
 ## Exercise 6: Serving Static HTML
