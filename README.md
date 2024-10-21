@@ -49,6 +49,7 @@ We will start by setting up version control for your project using Git.
 
 ### Task:
 Add a brief explanation of what Express.js is in the `README.md` file of your repository.
+You can find more details in the [official Express documentation](https://expressjs.com/).
 
 ---
 
