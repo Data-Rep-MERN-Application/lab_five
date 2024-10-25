@@ -1,11 +1,15 @@
 const express = require('express');
 const app = express();
 const port = 4000;
+const bodyParser = require('body-parser');
+app.use(bodyParser.urlencoded({ extended: true }));
 
 app.use((err, req, res, next) => {
     console.error(err.stack);
     res.status(500).send('Something went wrong!');
 });
+
+app.use(express.static('public'));
 
 app.get('/', (req, res) => {
     res.send('Welcome to Data Respresentation & Querying');
@@ -45,6 +49,15 @@ app.get('/api/movies', (req, res) => {
 app.get('/index',(req,res)=>{
     res.sendFile(__dirname+"/index.html");
 })
+
+app.get('/name', (req, res)=>{
+    res.send('Hello '+req.query.firstname +" "+ req.query.lastname);
+})
+
+app.post('/name',(req,res)=>{
+    res.send("Hi "+req.body.firstname+" "+req.body.lastname);
+})
+
 
 app.listen(port, () => {
     console.log(`Server is running on http://localhost:${port}`);
