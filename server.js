@@ -42,6 +42,10 @@ app.get('/api/movies', (req, res) => {
     res.status(200).json({ myMovies:movies });
 });
 
+app.get('/index',(req,res)=>{
+    res.sendFile(__dirname+"/index.html");
+})
+
 app.listen(port, () => {
     console.log(`Server is running on http://localhost:${port}`);
 });
